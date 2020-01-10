@@ -7,20 +7,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Weather API</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-    <div class="alert alert-dark" role="alert">
-        Get Your Weather Here!!! </div>
-    <div class="searchbar">
-        <form class="form-inline my-2 my-lg-0">Search Your City Here:
-            <input class="form-control mr-sm-2" type="search" placeholder="Enter City" aria-label="Search">
-            <button type="button" id="get-weather" class="btn btn-primary fas fa-search">Find Weather Status</button>
-        </form>
-    </div>
-    <div id="searches-view"></div>
-    <div id="currentweather-view"></div> 
-    <div id="fivedayweather-view"></div>
+        <div class="alert alert-dark" role="alert">
+            Get Your Weather Here!!! </div>
+        <div class="searchbar">
+            <form class="form-inline my-2 my-lg-0">
+                <h4>Search Your City Here:</h4>
+                <input class="form-control mr-sm-2" type="search" placeholder="Enter City" aria-label="Search">
+                <button type="button" id="get-weather" class="btn btn-primary">Find Weather
+                    Status</button>
+            </form>
+        </div>
+        
+        <div id="searches-view"></div>
+        <div class="current">
+            <div id="currentweather-view"></div> 
+        </div>
+        <div id="fivedayweather-view"></div>
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
