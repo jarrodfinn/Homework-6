@@ -1,18 +1,20 @@
-
+/* .current {
+    
+} */
 #currentweather-view {
-    border: 5px solid;
-    width: 100%;
+    /* border: 5px solid; */
+    width: auto;
     margin: auto;
     padding: 10px;
-    text-align: left;
-    border-radius: 5px;
+    text-align: right;
+    /* border-radius: 5px; */
 }
 .alert {
     position: relative;
     padding: .75rem 1.25rem;
     margin-bottom: 2rem;
-    border: 5px solid transparent;
-    border-radius: .25rem;
+    /* border: 5px solid transparent;
+    border-radius: .25rem; */
     text-align: center;
     font-size: 45px;
 }
